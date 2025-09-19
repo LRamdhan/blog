@@ -1,0 +1,11 @@
+@import "tailwindcss";
+
+
+* {
+  @apply font-sans;
+}
+
+
+@utility text-title {
+  @apply text-2xl font-semibold;
+}

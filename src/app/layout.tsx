@@ -1,5 +1,6 @@
 import Navbar from "@/component/organism/Navbar";
 import "./../css/globals.css";
+import AuthProvider from "@/component/organism/AuthProvider";
 
 export default function RootLayout({
   children,
@@ -7,11 +8,13 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="en">
+    <html lang="en" suppressHydrationWarning>
       <body>
-        <Navbar />
-        <div className="h-5"></div>
-        {children}
+        <AuthProvider>
+          <Navbar />
+          <div className="h-5"></div>
+          {children}
+        </AuthProvider>
       </body>
     </html>
   );

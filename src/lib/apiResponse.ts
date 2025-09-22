@@ -1,5 +1,5 @@
 const apiResponse = {
-  success: (message: string = "Success", data: Array<any> | Object = {}, status: number = 200) => {
+  success: (message: string = "Success", data: Array<unknown> | object = {}, status: number = 200) => {
     return Response.json({
       success: true,
       message,
@@ -9,7 +9,7 @@ const apiResponse = {
     })
   },
 
-  badRequest: (message: string = "Bad Request", data: Array<any> | Object = {}, status: number = 400) => {
+  badRequest: (message: string = "Bad Request", data: Array<unknown> | object = {}, status: number = 400) => {
     return Response.json({
       success: false,
       message,
@@ -19,7 +19,7 @@ const apiResponse = {
     })
   },
 
-  notFound: (message: string = "Not Found", data: Array<any> | Object = {}, status: number = 404) => {
+  notFound: (message: string = "Not Found", data: Array<unknown> | object = {}, status: number = 404) => {
     return Response.json({
       success: false,
       message,
@@ -29,7 +29,7 @@ const apiResponse = {
     })
   },
 
-  unauthorized: (message: string = "Unauthorized", data: Array<any> | Object = {}, status: number = 401) => {
+  unauthorized: (message: string = "Unauthorized", data: Array<unknown> | object = {}, status: number = 401) => {
     return Response.json({
       success: false,
       message,
@@ -39,7 +39,7 @@ const apiResponse = {
     })
   },
 
-  error: (message: string = "Error", data: Array<any> | Object = {}, status: number = 500) => {
+  error: (message: string = "Error", data: Array<unknown> | object = {}, status: number = 500) => {
     return Response.json({
       success: false,
       message,

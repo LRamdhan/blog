@@ -1,4 +1,5 @@
 import Link from 'next/link'
+import LogoutButton from '../atom/LogoutButton'
 
 const Navbar = () => {
 
@@ -7,6 +8,7 @@ const Navbar = () => {
       <Link href={"/login"}>Login</Link>
       <Link href={"/"}>Home</Link>
       <Link href={"/search"}>Search</Link>
+      <LogoutButton />
     </nav>
   )
 }

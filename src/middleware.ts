@@ -7,7 +7,7 @@ export default withAuth(
       const requireAuthPages: string[] = ['/'];
       const notRequireAuthPages: string[] = ['/login'];
       const isSignedIn: boolean = req.nextauth.token !== null;
-      const currentPath: string = req.nextUrl.pathname;   
+      const currentPath: string = req.nextUrl.pathname;        
       
       // cek auth in api
       if(currentPath.startsWith('/api') && !isSignedIn) {

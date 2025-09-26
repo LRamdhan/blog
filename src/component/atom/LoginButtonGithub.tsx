@@ -2,11 +2,10 @@
 
 import { signIn } from "next-auth/react"
 
-
-const LoginButton = () => {  
+const LoginButtonGithub = () => {  
   return (
     <button onClick={() => signIn('github')}>Github</button>
   )
 }
 
-export default LoginButton
+export default LoginButtonGithub

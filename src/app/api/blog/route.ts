@@ -1,6 +1,7 @@
 import ValidationError from "@/exception/ValidationError";
 import apiErrorHandler from "@/lib/apiErrorHandler";
 import apiResponse from "@/lib/apiResponse";
+import blogModel from "@/model/blogModel";
 import { type NextRequest } from 'next/server'
 
 const getBlog = async (req: NextRequest) => {
@@ -11,10 +12,11 @@ const getBlog = async (req: NextRequest) => {
     throw new ValidationError('Page query should exist');
   }  
 
+  // get blog
+  const blog = await blogModel.getBlog();
+
   // response
-  return apiResponse.success('sip', {
-    data: 'jadi ya begitulah'
-  }, 201);
+  return apiResponse.success('sip', blog, 201);
 }
 
 export const GET = apiErrorHandler(getBlog);

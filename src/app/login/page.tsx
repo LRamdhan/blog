@@ -1,4 +1,5 @@
-import LoginButton from "@/component/atom/LoginButton"
+import LoginButtonGithub from "@/component/atom/LoginButtonGithub"
+import LoginButtonGoogle from "@/component/atom/LoginButtonGoogle"
 import PageTitle from "@/component/atom/PageTitle"
 
 const LoginPage = () => {
@@ -6,7 +7,10 @@ const LoginPage = () => {
   return (
     <main>
       <PageTitle>Login</PageTitle>
-      <LoginButton />
+      <br /><br />
+      <LoginButtonGithub />
+      <br /><br />
+      <LoginButtonGoogle />
     </main>
   )
 }

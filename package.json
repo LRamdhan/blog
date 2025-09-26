@@ -7,9 +7,14 @@
     "dev": "next dev --turbopack",
     "build": "next build --turbopack",
     "start": "next start",
-    "lint": "eslint"
+    "lint": "eslint",
+    "prototype-db": "npx prisma db push",
+    "studio": "npx prisma studio",
+    "generate": "npx prisma generate"
   },
   "dependencies": {
+    "@auth/prisma-adapter": "^2.10.0",
+    "@prisma/client": "^6.16.2",
     "next": "15.5.3",
     "next-auth": "^4.24.11",
     "react": "19.1.0",
@@ -23,6 +28,7 @@
     "@types/react-dom": "^19",
     "eslint": "^9",
     "eslint-config-next": "15.5.3",
+    "prisma": "^6.16.2",
     "tailwindcss": "^4",
     "typescript": "^5"
   }

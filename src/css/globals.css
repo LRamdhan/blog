@@ -1,6 +1,14 @@
 @import "tailwindcss";
 
 
+@theme {
+  --color-primary: #62748e;
+  --color-text: #000000;
+  --color-bg: #ffffff;
+  --color-blur-bg: #e2e8f0;
+}
+
+
 * {
   @apply font-sans;
 }

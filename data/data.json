@@ -1,0 +1,1076 @@
+{
+  "users": [
+    {
+      "id": "clh1a2b3c4d5e6f7g8h9i0j1",
+      "name": "Alice Johnson",
+      "email": "alice.johnson@example.com",
+      "emailVerified": "2024-01-15T08:30:00.000Z",
+      "image": "https://i.pravatar.cc/150?img=1"
+    },
+    {
+      "id": "clh2b3c4d5e6f7g8h9i0j1k2",
+      "name": "Bob Smith",
+      "email": "bob.smith@example.com",
+      "emailVerified": "2024-02-20T10:45:00.000Z",
+      "image": "https://i.pravatar.cc/150?img=2"
+    },
+    {
+      "id": "clh3c4d5e6f7g8h9i0j1k2l3",
+      "name": "Carol Martinez",
+      "email": "carol.martinez@example.com",
+      "emailVerified": "2024-03-10T14:20:00.000Z",
+      "image": "https://i.pravatar.cc/150?img=3"
+    },
+    {
+      "id": "clh4d5e6f7g8h9i0j1k2l3m4",
+      "name": "David Lee",
+      "email": "david.lee@example.com",
+      "emailVerified": "2024-01-25T09:15:00.000Z",
+      "image": "https://i.pravatar.cc/150?img=4"
+    },
+    {
+      "id": "clh5e6f7g8h9i0j1k2l3m4n5",
+      "name": "Emma Wilson",
+      "email": "emma.wilson@example.com",
+      "emailVerified": "2024-04-05T11:30:00.000Z",
+      "image": "https://i.pravatar.cc/150?img=5"
+    },
+    {
+      "id": "clh6f7g8h9i0j1k2l3m4n5o6",
+      "name": "Frank Brown",
+      "email": "frank.brown@example.com",
+      "emailVerified": null,
+      "image": "https://i.pravatar.cc/150?img=6"
+    },
+    {
+      "id": "clh7g8h9i0j1k2l3m4n5o6p7",
+      "name": "Grace Taylor",
+      "email": "grace.taylor@example.com",
+      "emailVerified": "2024-02-14T16:00:00.000Z",
+      "image": "https://i.pravatar.cc/150?img=7"
+    },
+    {
+      "id": "clh8h9i0j1k2l3m4n5o6p7q8",
+      "name": "Henry Davis",
+      "email": "henry.davis@example.com",
+      "emailVerified": "2024-03-22T13:45:00.000Z",
+      "image": "https://i.pravatar.cc/150?img=8"
+    },
+    {
+      "id": "clh9i0j1k2l3m4n5o6p7q8r9",
+      "name": "Ivy Anderson",
+      "email": "ivy.anderson@example.com",
+      "emailVerified": null,
+      "image": "https://i.pravatar.cc/150?img=9"
+    },
+    {
+      "id": "clh0j1k2l3m4n5o6p7q8r9s0",
+      "name": "Jack Thompson",
+      "email": "jack.thompson@example.com",
+      "emailVerified": "2024-04-18T12:00:00.000Z",
+      "image": "https://i.pravatar.cc/150?img=10"
+    }
+  ],
+  "blogs": [
+    {
+      "id": "blog1a2b3c4d5e6f7g8h9i0j1",
+      "userId": "clh1a2b3c4d5e6f7g8h9i0j1",
+      "title": "The Future of Quantum Computing",
+      "description": "Exploring the latest breakthroughs in quantum computing and their potential impact on cryptography, drug discovery, and artificial intelligence.",
+      "images": ["https://picsum.photos/800/600?random=1"],
+      "category": "SCIENCE",
+      "createdAt": "2024-01-15T10:30:00.000Z",
+      "updatedAt": "2024-01-20T14:15:00.000Z"
+    },
+    {
+      "id": "blog2b3c4d5e6f7g8h9i0j1k2",
+      "userId": "clh1a2b3c4d5e6f7g8h9i0j1",
+      "title": "Minimalist UI Design Principles",
+      "description": "A comprehensive guide to creating clean, user-friendly interfaces that focus on essential elements and remove unnecessary clutter.",
+      "images": ["https://picsum.photos/800/600?random=2", "https://picsum.photos/800/600?random=3"],
+      "category": "DESIGN",
+      "createdAt": "2024-02-05T09:20:00.000Z",
+      "updatedAt": "2024-02-05T09:20:00.000Z"
+    },
+    {
+      "id": "blog3c4d5e6f7g8h9i0j1k2l3",
+      "userId": "clh2b3c4d5e6f7g8h9i0j1k2",
+      "title": "Understanding the Gut Microbiome",
+      "description": "How the trillions of bacteria in your digestive system affect your overall health, immunity, and mental well-being.",
+      "images": null,
+      "category": "HEALTH",
+      "createdAt": "2024-02-20T11:00:00.000Z",
+      "updatedAt": "2024-03-01T16:30:00.000Z"
+    },
+    {
+      "id": "blog4d5e6f7g8h9i0j1k2l3m4",
+      "userId": "clh2b3c4d5e6f7g8h9i0j1k2",
+      "title": "Introduction to Rust Programming",
+      "description": "Learn the basics of Rust, a systems programming language that focuses on safety, speed, and concurrency without garbage collection.",
+      "images": ["https://picsum.photos/800/600?random=4"],
+      "category": "IT",
+      "createdAt": "2024-01-10T08:45:00.000Z",
+      "updatedAt": "2024-01-10T08:45:00.000Z"
+    },
+    {
+      "id": "blog5e6f7g8h9i0j1k2l3m4n5",
+      "userId": "clh3c4d5e6f7g8h9i0j1k2l3",
+      "title": "Crafting Compelling Blog Posts",
+      "description": "Essential tips and techniques for writing engaging content that captures readers' attention and keeps them coming back for more.",
+      "images": ["https://picsum.photos/800/600?random=5"],
+      "category": "WRITING",
+      "createdAt": "2024-03-12T14:00:00.000Z",
+      "updatedAt": "2024-03-15T10:20:00.000Z"
+    },
+    {
+      "id": "blog6f7g8h9i0j1k2l3m4n5o6",
+      "userId": "clh3c4d5e6f7g8h9i0j1k2l3",
+      "title": "Dark Matter and Dark Energy Explained",
+      "description": "Unraveling the mysteries of the universe's most enigmatic components that make up 95% of everything that exists.",
+      "images": null,
+      "category": "SCIENCE",
+      "createdAt": "2024-02-28T13:30:00.000Z",
+      "updatedAt": "2024-02-28T13:30:00.000Z"
+    },
+    {
+      "id": "blog7g8h9i0j1k2l3m4n5o6p7",
+      "userId": "clh4d5e6f7g8h9i0j1k2l3m4",
+      "title": "Color Theory in Modern Design",
+      "description": "Understanding how to use color psychology and harmony to create visually appealing and effective designs.",
+      "images": ["https://picsum.photos/800/600?random=6", "https://picsum.photos/800/600?random=7"],
+      "category": "DESIGN",
+      "createdAt": "2024-01-28T15:45:00.000Z",
+      "updatedAt": "2024-02-10T09:00:00.000Z"
+    },
+    {
+      "id": "blog8h9i0j1k2l3m4n5o6p7q8",
+      "userId": "clh4d5e6f7g8h9i0j1k2l3m4",
+      "title": "Mental Health in the Digital Age",
+      "description": "Exploring the relationship between technology use, social media, and mental well-being in contemporary society.",
+      "images": ["https://picsum.photos/800/600?random=8"],
+      "category": "HEALTH",
+      "createdAt": "2024-03-05T10:15:00.000Z",
+      "updatedAt": "2024-03-20T11:45:00.000Z"
+    },
+    {
+      "id": "blog9i0j1k2l3m4n5o6p7q8r9",
+      "userId": "clh5e6f7g8h9i0j1k2l3m4n5",
+      "title": "Building Scalable Microservices",
+      "description": "Best practices for designing and implementing microservices architecture that can handle growth and maintain reliability.",
+      "images": null,
+      "category": "IT",
+      "createdAt": "2024-04-08T12:30:00.000Z",
+      "updatedAt": "2024-04-08T12:30:00.000Z"
+    },
+    {
+      "id": "blog10j1k2l3m4n5o6p7q8r9s0",
+      "userId": "clh5e6f7g8h9i0j1k2l3m4n5",
+      "title": "The Art of Storytelling in Content",
+      "description": "How to weave narratives into your writing to create emotional connections and make your content memorable.",
+      "images": ["https://picsum.photos/800/600?random=9"],
+      "category": "WRITING",
+      "createdAt": "2024-03-25T16:00:00.000Z",
+      "updatedAt": "2024-04-02T14:30:00.000Z"
+    },
+    {
+      "id": "blog11k2l3m4n5o6p7q8r9s0t1",
+      "userId": "clh1a2b3c4d5e6f7g8h9i0j1",
+      "title": "CRISPR and Gene Editing",
+      "description": "The revolutionary gene-editing technology that's transforming medicine, agriculture, and our understanding of genetics.",
+      "images": ["https://picsum.photos/800/600?random=10"],
+      "category": "SCIENCE",
+      "createdAt": "2024-01-22T09:00:00.000Z",
+      "updatedAt": "2024-01-22T09:00:00.000Z"
+    },
+    {
+      "id": "blog12l3m4n5o6p7q8r9s0t1u2",
+      "userId": "clh6f7g8h9i0j1k2l3m4n5o6",
+      "title": "Typography Best Practices",
+      "description": "Choosing the right fonts, sizes, and spacing to improve readability and enhance your design's visual hierarchy.",
+      "images": ["https://picsum.photos/800/600?random=11", "https://picsum.photos/800/600?random=12"],
+      "category": "DESIGN",
+      "createdAt": "2024-02-14T11:20:00.000Z",
+      "updatedAt": "2024-03-01T08:45:00.000Z"
+    },
+    {
+      "id": "blog13m4n5o6p7q8r9s0t1u2v3",
+      "userId": "clh6f7g8h9i0j1k2l3m4n5o6",
+      "title": "Nutrition for Athletic Performance",
+      "description": "Evidence-based dietary strategies to optimize training, recovery, and competition outcomes for athletes of all levels.",
+      "images": null,
+      "category": "HEALTH",
+      "createdAt": "2024-03-18T07:30:00.000Z",
+      "updatedAt": "2024-03-18T07:30:00.000Z"
+    },
+    {
+      "id": "blog14n5o6p7q8r9s0t1u2v3w4",
+      "userId": "clh7g8h9i0j1k2l3m4n5o6p7",
+      "title": "Docker Container Orchestration",
+      "description": "Managing containerized applications at scale using Docker, Kubernetes, and other orchestration tools.",
+      "images": ["https://picsum.photos/800/600?random=13"],
+      "category": "IT",
+      "createdAt": "2024-02-16T13:15:00.000Z",
+      "updatedAt": "2024-02-25T10:00:00.000Z"
+    },
+    {
+      "id": "blog15o6p7q8r9s0t1u2v3w4x5",
+      "userId": "clh7g8h9i0j1k2l3m4n5o6p7",
+      "title": "SEO Copywriting Fundamentals",
+      "description": "Writing content that ranks well in search engines while still being engaging and valuable for human readers.",
+      "images": ["https://picsum.photos/800/600?random=14"],
+      "category": "WRITING",
+      "createdAt": "2024-01-30T14:45:00.000Z",
+      "updatedAt": "2024-02-12T16:20:00.000Z"
+    },
+    {
+      "id": "blog16p7q8r9s0t1u2v3w4x5y6",
+      "userId": "clh8h9i0j1k2l3m4n5o6p7q8",
+      "title": "The Search for Exoplanets",
+      "description": "Discovering potentially habitable worlds beyond our solar system and the methods scientists use to find them.",
+      "images": null,
+      "category": "SCIENCE",
+      "createdAt": "2024-03-24T10:30:00.000Z",
+      "updatedAt": "2024-03-24T10:30:00.000Z"
+    },
+    {
+      "id": "blog17q8r9s0t1u2v3w4x5y6z7",
+      "userId": "clh8h9i0j1k2l3m4n5o6p7q8",
+      "title": "Responsive Web Design Techniques",
+      "description": "Creating websites that adapt seamlessly to different screen sizes and devices using modern CSS and JavaScript.",
+      "images": ["https://picsum.photos/800/600?random=15", "https://picsum.photos/800/600?random=16"],
+      "category": "DESIGN",
+      "createdAt": "2024-02-08T08:00:00.000Z",
+      "updatedAt": "2024-02-08T08:00:00.000Z"
+    },
+    {
+      "id": "blog18r9s0t1u2v3w4x5y6z7a8",
+      "userId": "clh9i0j1k2l3m4n5o6p7q8r9",
+      "title": "Sleep Science and Optimization",
+      "description": "Understanding sleep cycles, circadian rhythms, and evidence-based strategies for improving sleep quality.",
+      "images": ["https://picsum.photos/800/600?random=17"],
+      "category": "HEALTH",
+      "createdAt": "2024-01-18T15:30:00.000Z",
+      "updatedAt": "2024-02-05T12:15:00.000Z"
+    },
+    {
+      "id": "blog19s0t1u2v3w4x5y6z7a8b9",
+      "userId": "clh9i0j1k2l3m4n5o6p7q8r9",
+      "title": "GraphQL vs REST APIs",
+      "description": "Comparing two popular API architectures and understanding when to use each approach for your application.",
+      "images": null,
+      "category": "IT",
+      "createdAt": "2024-03-10T09:45:00.000Z",
+      "updatedAt": "2024-03-10T09:45:00.000Z"
+    },
+    {
+      "id": "blog20t1u2v3w4x5y6z7a8b9c0",
+      "userId": "clh0j1k2l3m4n5o6p7q8r9s0",
+      "title": "Writing Technical Documentation",
+      "description": "Creating clear, comprehensive documentation that helps users understand and effectively use technical products.",
+      "images": ["https://picsum.photos/800/600?random=18"],
+      "category": "WRITING",
+      "createdAt": "2024-04-20T11:00:00.000Z",
+      "updatedAt": "2024-04-25T09:30:00.000Z"
+    },
+    {
+      "id": "blog21u2v3w4x5y6z7a8b9c0d1",
+      "userId": "clh0j1k2l3m4n5o6p7q8r9s0",
+      "title": "Artificial Intelligence Ethics",
+      "description": "Examining the moral implications and societal impact of AI development, deployment, and decision-making.",
+      "images": ["https://picsum.photos/800/600?random=19"],
+      "category": "SCIENCE",
+      "createdAt": "2024-02-22T13:20:00.000Z",
+      "updatedAt": "2024-03-08T15:45:00.000Z"
+    },
+    {
+      "id": "blog22v3w4x5y6z7a8b9c0d1e2",
+      "userId": "clh1a2b3c4d5e6f7g8h9i0j1",
+      "title": "User Experience Research Methods",
+      "description": "Qualitative and quantitative techniques for understanding user needs, behaviors, and pain points.",
+      "images": null,
+      "category": "DESIGN",
+      "createdAt": "2024-03-02T10:15:00.000Z",
+      "updatedAt": "2024-03-02T10:15:00.000Z"
+    },
+    {
+      "id": "blog23w4x5y6z7a8b9c0d1e2f3",
+      "userId": "clh2b3c4d5e6f7g8h9i0j1k2",
+      "title": "Intermittent Fasting Explained",
+      "description": "The science behind time-restricted eating, its potential health benefits, and how to implement it safely.",
+      "images": ["https://picsum.photos/800/600?random=20", "https://picsum.photos/800/600?random=21"],
+      "category": "HEALTH",
+      "createdAt": "2024-01-25T12:00:00.000Z",
+      "updatedAt": "2024-02-15T14:30:00.000Z"
+    },
+    {
+      "id": "blog24x5y6z7a8b9c0d1e2f3g4",
+      "userId": "clh3c4d5e6f7g8h9i0j1k2l3",
+      "title": "CI/CD Pipeline Best Practices",
+      "description": "Setting up automated testing, building, and deployment workflows to streamline software development.",
+      "images": ["https://picsum.photos/800/600?random=22"],
+      "category": "IT",
+      "createdAt": "2024-04-01T08:30:00.000Z",
+      "updatedAt": "2024-04-01T08:30:00.000Z"
+    },
+    {
+      "id": "blog25y6z7a8b9c0d1e2f3g4h5",
+      "userId": "clh4d5e6f7g8h9i0j1k2l3m4",
+      "title": "Character Development in Fiction",
+      "description": "Techniques for creating memorable, multi-dimensional characters that readers connect with emotionally.",
+      "images": null,
+      "category": "WRITING",
+      "createdAt": "2024-02-18T16:45:00.000Z",
+      "updatedAt": "2024-03-05T11:20:00.000Z"
+    },
+    {
+      "id": "blog26z7a8b9c0d1e2f3g4h5i6",
+      "userId": "clh5e6f7g8h9i0j1k2l3m4n5",
+      "title": "Climate Change and Ocean Acidification",
+      "description": "Understanding how increased CO2 levels are affecting marine ecosystems and global ocean chemistry.",
+      "images": ["https://picsum.photos/800/600?random=23"],
+      "category": "SCIENCE",
+      "createdAt": "2024-03-14T09:00:00.000Z",
+      "updatedAt": "2024-03-14T09:00:00.000Z"
+    },
+    {
+      "id": "blog27a8b9c0d1e2f3g4h5i6j7",
+      "userId": "clh6f7g8h9i0j1k2l3m4n5o6",
+      "title": "Motion Design Principles",
+      "description": "Using animation and transitions to create engaging, intuitive user interfaces and enhance user experience.",
+      "images": ["https://picsum.photos/800/600?random=24", "https://picsum.photos/800/600?random=25"],
+      "category": "DESIGN",
+      "createdAt": "2024-01-12T14:30:00.000Z",
+      "updatedAt": "2024-01-28T10:00:00.000Z"
+    },
+    {
+      "id": "blog28b9c0d1e2f3g4h5i6j7k8",
+      "userId": "clh7g8h9i0j1k2l3m4n5o6p7",
+      "title": "Stress Management Techniques",
+      "description": "Evidence-based strategies for reducing stress, including mindfulness, exercise, and cognitive behavioral approaches.",
+      "images": null,
+      "category": "HEALTH",
+      "createdAt": "2024-04-10T13:15:00.000Z",
+      "updatedAt": "2024-04-15T16:40:00.000Z"
+    },
+    {
+      "id": "blog29c0d1e2f3g4h5i6j7k8l9",
+      "userId": "clh8h9i0j1k2l3m4n5o6p7q8",
+      "title": "Blockchain Technology Fundamentals",
+      "description": "Understanding distributed ledger technology, consensus mechanisms, and blockchain's potential applications.",
+      "images": ["https://picsum.photos/800/600?random=26"],
+      "category": "IT",
+      "createdAt": "2024-02-12T11:45:00.000Z",
+      "updatedAt": "2024-02-12T11:45:00.000Z"
+    },
+    {
+      "id": "blog30d1e2f3g4h5i6j7k8l9m0",
+      "userId": "clh9i0j1k2l3m4n5o6p7q8r9",
+      "title": "Editing Your Own Work",
+      "description": "Self-editing strategies to polish your writing, catch errors, and strengthen your message before publication.",
+      "images": ["https://picsum.photos/800/600?random=27"],
+      "category": "WRITING",
+      "createdAt": "2024-03-28T15:00:00.000Z",
+      "updatedAt": "2024-04-05T12:30:00.000Z"
+    },
+    {
+      "id": "blog31e2f3g4h5i6j7k8l9m0n1",
+      "userId": "clh0j1k2l3m4n5o6p7q8r9s0",
+      "title": "Neuroscience of Learning",
+      "description": "How the brain acquires, stores, and retrieves information, and what this means for effective study techniques.",
+      "images": null,
+      "category": "SCIENCE",
+      "createdAt": "2024-01-20T10:30:00.000Z",
+      "updatedAt": "2024-02-02T14:15:00.000Z"
+    },
+    {
+      "id": "blog32f3g4h5i6j7k8l9m0n1o2",
+      "userId": "clh1a2b3c4d5e6f7g8h9i0j1",
+      "title": "Accessibility in Web Design",
+      "description": "Creating inclusive digital experiences that work for users with diverse abilities and assistive technologies.",
+      "images": ["https://picsum.photos/800/600?random=28", "https://picsum.photos/800/600?random=29"],
+      "category": "DESIGN",
+      "createdAt": "2024-04-03T09:20:00.000Z",
+      "updatedAt": "2024-04-03T09:20:00.000Z"
+    },
+    {
+      "id": "blog33g4h5i6j7k8l9m0n1o2p3",
+      "userId": "clh2b3c4d5e6f7g8h9i0j1k2",
+      "title": "Plant-Based Diets and Health",
+      "description": "Examining the nutritional adequacy and health impacts of vegetarian and vegan dietary patterns.",
+      "images": ["https://picsum.photos/800/600?random=30"],
+      "category": "HEALTH",
+      "createdAt": "2024-03-07T11:00:00.000Z",
+      "updatedAt": "2024-03-22T09:45:00.000Z"
+    },
+    {
+      "id": "blog34h5i6j7k8l9m0n1o2p3q4",
+      "userId": "clh3c4d5e6f7g8h9i0j1k2l3",
+      "title": "WebAssembly in Modern Browsers",
+      "description": "Leveraging WASM to run high-performance code in the browser and expand web application capabilities.",
+      "images": null,
+      "category": "IT",
+      "createdAt": "2024-02-25T14:30:00.000Z",
+      "updatedAt": "2024-02-25T14:30:00.000Z"
+    },
+    {
+      "id": "blog35i6j7k8l9m0n1o2p3q4r5",
+      "userId": "clh4d5e6f7g8h9i0j1k2l3m4",
+      "title": "Writing Persuasive Copy",
+      "description": "Copywriting techniques that motivate readers to take action, from headlines to calls-to-action.",
+      "images": ["https://picsum.photos/800/600?random=31"],
+      "category": "WRITING",
+      "createdAt": "2024-01-16T13:45:00.000Z",
+      "updatedAt": "2024-01-30T10:20:00.000Z"
+    },
+    {
+      "id": "blog36j7k8l9m0n1o2p3q4r5s6",
+      "userId": "clh5e6f7g8h9i0j1k2l3m4n5",
+      "title": "The Higgs Boson Discovery",
+      "description": "Understanding the particle that gives other particles mass and its significance in the Standard Model of physics.",
+      "images": ["https://picsum.photos/800/600?random=32"],
+      "category": "SCIENCE",
+      "createdAt": "2024-04-12T08:15:00.000Z",
+      "updatedAt": "2024-04-12T08:15:00.000Z"
+    },
+    {
+      "id": "blog37k8l9m0n1o2p3q4r5s6t7",
+      "userId": "clh6f7g8h9i0j1k2l3m4n5o6",
+      "title": "Design Systems at Scale",
+      "description": "Building and maintaining consistent design languages across large organizations and multiple products.",
+      "images": null,
+      "category": "DESIGN",
+      "createdAt": "2024-03-19T10:00:00.000Z",
+      "updatedAt": "2024-04-02T13:30:00.000Z"
+    },
+    {
+      "id": "blog38l9m0n1o2p3q4r5s6t7u8",
+      "userId": "clh7g8h9i0j1k2l3m4n5o6p7",
+      "title": "Cardiovascular Exercise Benefits",
+      "description": "How aerobic activity strengthens the heart, improves circulation, and reduces disease risk.",
+      "images": ["https://picsum.photos/800/600?random=33", "https://picsum.photos/800/600?random=34"],
+      "category": "HEALTH",
+      "createdAt": "2024-02-10T12:30:00.000Z",
+      "updatedAt": "2024-02-10T12:30:00.000Z"
+    },
+    {
+      "id": "blog39m0n1o2p3q4r5s6t7u8v9",
+      "userId": "clh8h9i0j1k2l3m4n5o6p7q8",
+      "title": "Serverless Architecture Patterns",
+      "description": "Designing cloud-native applications using Functions-as-a-Service and managed cloud services.",
+      "images": ["https://picsum.photos/800/600?random=35"],
+      "category": "IT",
+      "createdAt": "2024-01-08T09:00:00.000Z",
+      "updatedAt": "2024-01-22T15:45:00.000Z"
+    },
+    {
+      "id": "blog40n1o2p3q4r5s6t7u8v9w0",
+      "userId": "clh9i0j1k2l3m4n5o6p7q8r9",
+      "title": "Dialogue Writing Techniques",
+      "description": "Crafting realistic, purposeful dialogue that reveals character and advances your story's plot.",
+      "images": null,
+      "category": "WRITING",
+      "createdAt": "2024-04-07T14:20:00.000Z",
+      "updatedAt": "2024-04-07T14:20:00.000Z"
+    },
+    {
+      "id": "blog41o2p3q4r5s6t7u8v9w0x1",
+      "userId": "clh0j1k2l3m4n5o6p7q8r9s0",
+      "title": "Renewable Energy Technologies",
+      "description": "Comparing solar, wind, hydro, and other sustainable energy sources and their potential to replace fossil fuels.",
+      "images": ["https://picsum.photos/800/600?random=36"],
+      "category": "SCIENCE",
+      "createdAt": "2024-03-11T11:30:00.000Z",
+      "updatedAt": "2024-03-26T08:15:00.000Z"
+    },
+    {
+      "id": "blog42p3q4r5s6t7u8v9w0x1y2",
+      "userId": "clh1a2b3c4d5e6f7g8h9i0j1",
+      "title": "Prototyping Tools Comparison",
+      "description": "Evaluating Figma, Adobe XD, Sketch, and other design tools for creating interactive prototypes.",
+      "images": ["https://picsum.photos/800/600?random=37", "https://picsum.photos/800/600?random=38"],
+      "category": "DESIGN",
+      "createdAt": "2024-02-01T13:00:00.000Z",
+      "updatedAt": "2024-02-01T13:00:00.000Z"
+    },
+    {
+      "id": "blog43q4r5s6t7u8v9w0x1y2z3",
+      "userId": "clh2b3c4d5e6f7g8h9i0j1k2",
+      "title": "Immune System Function",
+      "description": "How your body's defense mechanisms protect against pathogens and maintain health.",
+      "images": null,
+      "category": "HEALTH",
+      "createdAt": "2024-04-14T10:45:00.000Z",
+      "updatedAt": "2024-04-22T16:30:00.000Z"
+    },
+    {
+      "id": "blog44r5s6t7u8v9w0x1y2z3a4",
+      "userId": "clh3c4d5e6f7g8h9i0j1k2l3",
+      "title": "Database Indexing Strategies",
+      "description": "Optimizing query performance through proper index design and understanding database internals.",
+      "images": ["https://picsum.photos/800/600?random=39"],
+      "category": "IT",
+      "createdAt": "2024-01-14T15:15:00.000Z",
+      "updatedAt": "2024-01-14T15:15:00.000Z"
+    },
+    {
+      "id": "blog45s6t7u8v9w0x1y2z3a4b5",
+      "userId": "clh4d5e6f7g8h9i0j1k2l3m4",
+      "title": "Building a Writing Habit",
+      "description": "Practical strategies for writing consistently, overcoming writer's block, and maintaining creative momentum.",
+      "images": ["https://picsum.photos/800/600?random=40"],
+      "category": "WRITING",
+      "createdAt": "2024-03-09T09:30:00.000Z",
+      "updatedAt": "2024-03-17T12:00:00.000Z"
+    },
+    {
+      "id": "blog46t7u8v9w0x1y2z3a4b5c6",
+      "userId": "clh5e6f7g8h9i0j1k2l3m4n5",
+      "title": "Mars Exploration Missions",
+      "description": "The history of Mars rovers, current missions, and plans for future human exploration of the Red Planet.",
+      "images": null,
+      "category": "SCIENCE",
+      "createdAt": "2024-02-17T12:45:00.000Z",
+      "updatedAt": "2024-02-17T12:45:00.000Z"
+    },
+    {
+      "id": "blog47u8v9w0x1y2z3a4b5c6d7",
+      "userId": "clh6f7g8h9i0j1k2l3m4n5o6",
+      "title": "Grid Systems in Design",
+      "description": "Using grid structures to create balanced, harmonious layouts that guide the viewer's eye.",
+      "images": ["https://picsum.photos/800/600?random=41", "https://picsum.photos/800/600?random=42"],
+      "category": "DESIGN",
+      "createdAt": "2024-04-05T08:00:00.000Z",
+      "updatedAt": "2024-04-18T10:30:00.000Z"
+    },
+    {
+      "id": "blog48v9w0x1y2z3a4b5c6d7e8",
+      "userId": "clh7g8h9i0j1k2l3m4n5o6p7",
+      "title": "Strength Training Fundamentals",
+      "description": "Building muscle, increasing bone density, and improving metabolic health through resistance exercise.",
+      "images": ["https://picsum.photos/800/600?random=43"],
+      "category": "HEALTH",
+      "createdAt": "2024-01-26T14:00:00.000Z",
+      "updatedAt": "2024-02-08T11:20:00.000Z"
+    },
+    {
+      "id": "blog49w0x1y2z3a4b5c6d7e8f9",
+      "userId": "clh8h9i0j1k2l3m4n5o6p7q8",
+      "title": "Event-Driven Architecture",
+      "description": "Designing loosely coupled systems that react to events for improved scalability and flexibility.",
+      "images": null,
+      "category": "IT",
+      "createdAt": "2024-03-21T10:15:00.000Z",
+      "updatedAt": "2024-03-21T10:15:00.000Z"
+    },
+    {
+      "id": "blog50x1y2z3a4b5c6d7e8f9g0",
+      "userId": "clh9i0j1k2l3m4n5o6p7q8r9",
+      "title": "Email Newsletter Writing",
+      "description": "Creating engaging email content that builds audience relationships and drives conversions.",
+      "images": ["https://picsum.photos/800/600?random=44"],
+      "category": "WRITING",
+      "createdAt": "2024-02-24T16:30:00.000Z",
+      "updatedAt": "2024-03-10T14:45:00.000Z"
+    },
+    {
+      "id": "blog51y2z3a4b5c6d7e8f9g0h1",
+      "userId": "clh0j1k2l3m4n5o6p7q8r9s0",
+      "title": "Stem Cell Research Progress",
+      "description": "Advances in regenerative medicine and the potential of stem cells to treat various diseases.",
+      "images": ["https://picsum.photos/800/600?random=45"],
+      "category": "SCIENCE",
+      "createdAt": "2024-01-19T13:20:00.000Z",
+      "updatedAt": "2024-01-19T13:20:00.000Z"
+    },
+    {
+      "id": "blog52z3a4b5c6d7e8f9g0h1i2",
+      "userId": "clh1a2b3c4d5e6f7g8h9i0j1",
+      "title": "Microinteractions in UX",
+      "description": "Small design details that provide feedback, guide tasks, and enhance the overall user experience.",
+      "images": null,
+      "category": "DESIGN",
+      "createdAt": "2024-03-30T11:45:00.000Z",
+      "updatedAt": "2024-04-12T09:15:00.000Z"
+    },
+    {
+      "id": "blog53a4b5c6d7e8f9g0h1i2j3",
+      "userId": "clh2b3c4d5e6f7g8h9i0j1k2",
+      "title": "Hydration and Performance",
+      "description": "The role of proper fluid intake in physical and cognitive function, and signs of dehydration.",
+      "images": ["https://picsum.photos/800/600?random=46", "https://picsum.photos/800/600?random=47"],
+      "category": "HEALTH",
+      "createdAt": "2024-02-29T09:00:00.000Z",
+      "updatedAt": "2024-02-29T09:00:00.000Z"
+    },
+    {
+      "id": "blog54b5c6d7e8f9g0h1i2j3k4",
+      "userId": "clh3c4d5e6f7g8h9i0j1k2l3",
+      "title": "Machine Learning Model Deployment",
+      "description": "Best practices for taking ML models from development to production, including monitoring and maintenance.",
+      "images": ["https://picsum.photos/800/600?random=48"],
+      "category": "IT",
+      "createdAt": "2024-04-16T12:00:00.000Z",
+      "updatedAt": "2024-04-23T15:30:00.000Z"
+    },
+    {
+      "id": "blog55c6d7e8f9g0h1i2j3k4l5",
+      "userId": "clh4d5e6f7g8h9i0j1k2l3m4",
+      "title": "Memoir Writing Guide",
+      "description": "Turning personal experiences into compelling narratives that resonate with readers and preserve memories.",
+      "images": null,
+      "category": "WRITING",
+      "createdAt": "2024-01-11T10:30:00.000Z",
+      "updatedAt": "2024-01-25T13:45:00.000Z"
+    },
+    {
+      "id": "blog56d7e8f9g0h1i2j3k4l5m6",
+      "userId": "clh5e6f7g8h9i0j1k2l3m4n5",
+      "title": "Gravitational Waves Detection",
+      "description": "How LIGO and other observatories detect ripples in spacetime and what they reveal about the universe.",
+      "images": ["https://picsum.photos/800/600?random=49"],
+      "category": "SCIENCE",
+      "createdAt": "2024-03-16T14:15:00.000Z",
+      "updatedAt": "2024-03-16T14:15:00.000Z"
+    },
+    {
+      "id": "blog57e8f9g0h1i2j3k4l5m6n7",
+      "userId": "clh6f7g8h9i0j1k2l3m4n5o6",
+      "title": "Visual Hierarchy Techniques",
+      "description": "Guiding users' attention through strategic use of size, color, contrast, and positioning in design.",
+      "images": ["https://picsum.photos/800/600?random=50", "https://picsum.photos/800/600?random=51"],
+      "category": "DESIGN",
+      "createdAt": "2024-02-06T15:30:00.000Z",
+      "updatedAt": "2024-02-20T12:00:00.000Z"
+    },
+    {
+      "id": "blog58f9g0h1i2j3k4l5m6n7o8",
+      "userId": "clh7g8h9i0j1k2l3m4n5o6p7",
+      "title": "Injury Prevention Strategies",
+      "description": "Proper form, warm-up routines, and recovery techniques to minimize exercise-related injuries.",
+      "images": null,
+      "category": "HEALTH",
+      "createdAt": "2024-04-09T08:45:00.000Z",
+      "updatedAt": "2024-04-09T08:45:00.000Z"
+    },
+    {
+      "id": "blog59g0h1i2j3k4l5m6n7o8p9",
+      "userId": "clh8h9i0j1k2l3m4n5o6p7q8",
+      "title": "API Security Best Practices",
+      "description": "Protecting your APIs from common vulnerabilities through authentication, authorization, and rate limiting.",
+      "images": ["https://picsum.photos/800/600?random=52"],
+      "category": "IT",
+      "createdAt": "2024-03-04T11:00:00.000Z",
+      "updatedAt": "2024-03-18T14:30:00.000Z"
+    },
+    {
+      "id": "blog60h1i2j3k4l5m6n7o8p9q0",
+      "userId": "clh9i0j1k2l3m4n5o6p7q8r9",
+      "title": "Poetry Writing Basics",
+      "description": "Exploring rhythm, meter, imagery, and other elements that make poetry a unique form of expression.",
+      "images": ["https://picsum.photos/800/600?random=53"],
+      "category": "WRITING",
+      "createdAt": "2024-01-29T12:15:00.000Z",
+      "updatedAt": "2024-01-29T12:15:00.000Z"
+    },
+    {
+      "id": "blog61i2j3k4l5m6n7o8p9q0r1",
+      "userId": "clh0j1k2l3m4n5o6p7q8r9s0",
+      "title": "Nanotechnology Applications",
+      "description": "How manipulating matter at the atomic scale is revolutionizing medicine, electronics, and materials science.",
+      "images": null,
+      "category": "SCIENCE",
+      "createdAt": "2024-04-21T09:30:00.000Z",
+      "updatedAt": "2024-04-28T11:45:00.000Z"
+    },
+    {
+      "id": "blog62j3k4l5m6n7o8p9q0r1s2",
+      "userId": "clh1a2b3c4d5e6f7g8h9i0j1",
+      "title": "Information Architecture Principles",
+      "description": "Organizing and structuring content to help users find information and accomplish tasks efficiently.",
+      "images": ["https://picsum.photos/800/600?random=54", "https://picsum.photos/800/600?random=55"],
+      "category": "DESIGN",
+      "createdAt": "2024-02-27T10:00:00.000Z",
+      "updatedAt": "2024-02-27T10:00:00.000Z"
+    },
+    {
+      "id": "blog63k4l5m6n7o8p9q0r1s2t3",
+      "userId": "clh2b3c4d5e6f7g8h9i0j1k2",
+      "title": "Longevity and Aging Science",
+      "description": "Current research into extending healthspan, understanding aging mechanisms, and anti-aging interventions.",
+      "images": ["https://picsum.photos/800/600?random=56"],
+      "category": "HEALTH",
+      "createdAt": "2024-01-13T13:30:00.000Z",
+      "updatedAt": "2024-01-27T16:00:00.000Z"
+    },
+    {
+      "id": "blog64l5m6n7o8p9q0r1s2t3u4",
+      "userId": "clh3c4d5e6f7g8h9i0j1k2l3",
+      "title": "Test-Driven Development",
+      "description": "Writing tests before code to improve software quality, maintainability, and design.",
+      "images": null,
+      "category": "IT",
+      "createdAt": "2024-03-23T14:45:00.000Z",
+      "updatedAt": "2024-03-23T14:45:00.000Z"
+    },
+    {
+      "id": "blog65m6n7o8p9q0r1s2t3u4v5",
+      "userId": "clh4d5e6f7g8h9i0j1k2l3m4",
+      "title": "Outlining Your Novel",
+      "description": "Structuring your story with plot points, character arcs, and pacing before you start writing.",
+      "images": ["https://picsum.photos/800/600?random=57"],
+      "category": "WRITING",
+      "createdAt": "2024-02-19T11:20:00.000Z",
+      "updatedAt": "2024-03-06T09:50:00.000Z"
+    },
+    {
+      "id": "blog66n7o8p9q0r1s2t3u4v5w6",
+      "userId": "clh5e6f7g8h9i0j1k2l3m4n5",
+      "title": "Particle Physics Discoveries",
+      "description": "Recent findings from particle accelerators and their implications for our understanding of fundamental forces.",
+      "images": ["https://picsum.photos/800/600?random=58"],
+      "category": "SCIENCE",
+      "createdAt": "2024-04-11T15:00:00.000Z",
+      "updatedAt": "2024-04-11T15:00:00.000Z"
+    },
+    {
+      "id": "blog67o8p9q0r1s2t3u4v5w6x7",
+      "userId": "clh6f7g8h9i0j1k2l3m4n5o6",
+      "title": "Design Thinking Process",
+      "description": "Using empathy, ideation, and prototyping to solve complex problems through human-centered design.",
+      "images": null,
+      "category": "DESIGN",
+      "createdAt": "2024-01-17T09:45:00.000Z",
+      "updatedAt": "2024-02-01T13:20:00.000Z"
+    },
+    {
+      "id": "blog68p9q0r1s2t3u4v5w6x7y8",
+      "userId": "clh7g8h9i0j1k2l3m4n5o6p7",
+      "title": "Functional Fitness Training",
+      "description": "Exercises that improve daily movement patterns and enhance quality of life through practical strength.",
+      "images": ["https://picsum.photos/800/600?random=59", "https://picsum.photos/800/600?random=60"],
+      "category": "HEALTH",
+      "createdAt": "2024-03-13T12:30:00.000Z",
+      "updatedAt": "2024-03-27T10:15:00.000Z"
+    },
+    {
+      "id": "blog69q0r1s2t3u4v5w6x7y8z9",
+      "userId": "clh8h9i0j1k2l3m4n5o6p7q8",
+      "title": "Progressive Web Apps",
+      "description": "Building web applications that work offline, send push notifications, and feel like native apps.",
+      "images": ["https://picsum.photos/800/600?random=61"],
+      "category": "IT",
+      "createdAt": "2024-02-13T10:00:00.000Z",
+      "updatedAt": "2024-02-13T10:00:00.000Z"
+    },
+    {
+      "id": "blog70r1s2t3u4v5w6x7y8z9a0",
+      "userId": "clh9i0j1k2l3m4n5o6p7q8r9",
+      "title": "Freelance Writing Career",
+      "description": "Building a successful freelance writing business, finding clients, and setting competitive rates.",
+      "images": null,
+      "category": "WRITING",
+      "createdAt": "2024-04-17T13:45:00.000Z",
+      "updatedAt": "2024-04-24T15:20:00.000Z"
+    },
+    {
+      "id": "blog71s2t3u4v5w6x7y8z9a0b1",
+      "userId": "clh0j1k2l3m4n5o6p7q8r9s0",
+      "title": "Epigenetics and Gene Expression",
+      "description": "How environmental factors influence gene activity without changing DNA sequences.",
+      "images": ["https://picsum.photos/800/600?random=62"],
+      "category": "SCIENCE",
+      "createdAt": "2024-01-24T14:30:00.000Z",
+      "updatedAt": "2024-01-24T14:30:00.000Z"
+    },
+    {
+      "id": "blog72t3u4v5w6x7y8z9a0b1c2",
+      "userId": "clh1a2b3c4d5e6f7g8h9i0j1",
+      "title": "Mobile-First Design Approach",
+      "description": "Designing for smaller screens first to create better experiences across all device sizes.",
+      "images": ["https://picsum.photos/800/600?random=63", "https://picsum.photos/800/600?random=64"],
+      "category": "DESIGN",
+      "createdAt": "2024-03-08T11:15:00.000Z",
+      "updatedAt": "2024-03-21T14:40:00.000Z"
+    },
+    {
+      "id": "blog73u4v5w6x7y8z9a0b1c2d3",
+      "userId": "clh2b3c4d5e6f7g8h9i0j1k2",
+      "title": "Cognitive Behavioral Therapy",
+      "description": "Understanding CBT techniques for managing anxiety, depression, and negative thought patterns.",
+      "images": null,
+      "category": "HEALTH",
+      "createdAt": "2024-04-06T09:00:00.000Z",
+      "updatedAt": "2024-04-06T09:00:00.000Z"
+    },
+    {
+      "id": "blog74v5w6x7y8z9a0b1c2d3e4",
+      "userId": "clh3c4d5e6f7g8h9i0j1k2l3",
+      "title": "Code Review Best Practices",
+      "description": "Conducting effective code reviews that improve quality, share knowledge, and build team culture.",
+      "images": ["https://picsum.photos/800/600?random=65"],
+      "category": "IT",
+      "createdAt": "2024-02-09T15:20:00.000Z",
+      "updatedAt": "2024-02-23T11:45:00.000Z"
+    },
+    {
+      "id": "blog75w6x7y8z9a0b1c2d3e4f5",
+      "userId": "clh4d5e6f7g8h9i0j1k2l3m4",
+      "title": "World-Building in Fantasy",
+      "description": "Creating rich, immersive fictional worlds with consistent rules, history, and cultures.",
+      "images": ["https://picsum.photos/800/600?random=66"],
+      "category": "WRITING",
+      "createdAt": "2024-01-31T10:30:00.000Z",
+      "updatedAt": "2024-02-14T13:15:00.000Z"
+    },
+    {
+      "id": "blog76x7y8z9a0b1c2d3e4f5g6",
+      "userId": "clh5e6f7g8h9i0j1k2l3m4n5",
+      "title": "Space-Time and Relativity",
+      "description": "Einstein's theories of special and general relativity and their mind-bending implications.",
+      "images": null,
+      "category": "SCIENCE",
+      "createdAt": "2024-03-29T12:00:00.000Z",
+      "updatedAt": "2024-03-29T12:00:00.000Z"
+    },
+    {
+      "id": "blog77y8z9a0b1c2d3e4f5g6h7",
+      "userId": "clh6f7g8h9i0j1k2l3m4n5o6",
+      "title": "Illustration Styles in Design",
+      "description": "Incorporating various illustration techniques to add personality and visual interest to designs.",
+      "images": ["https://picsum.photos/800/600?random=67", "https://picsum.photos/800/600?random=68"],
+      "category": "DESIGN",
+      "createdAt": "2024-04-19T08:30:00.000Z",
+      "updatedAt": "2024-04-26T10:00:00.000Z"
+    },
+    {
+      "id": "blog78z9a0b1c2d3e4f5g6h7i8",
+      "userId": "clh7g8h9i0j1k2l3m4n5o6p7",
+      "title": "Supplements and Nutrition",
+      "description": "Evidence-based guide to dietary supplements, what works, what doesn't, and potential risks.",
+      "images": ["https://picsum.photos/800/600?random=69"],
+      "category": "HEALTH",
+      "createdAt": "2024-02-21T11:45:00.000Z",
+      "updatedAt": "2024-02-21T11:45:00.000Z"
+    },
+    {
+      "id": "blog79a0b1c2d3e4f5g6h7i8j9",
+      "userId": "clh8h9i0j1k2l3m4n5o6p7q8",
+      "title": "Performance Optimization Tips",
+      "description": "Techniques for improving application speed, reducing load times, and optimizing resource usage.",
+      "images": null,
+      "category": "IT",
+      "createdAt": "2024-01-21T13:00:00.000Z",
+      "updatedAt": "2024-02-04T15:30:00.000Z"
+    },
+    {
+      "id": "blog80b1c2d3e4f5g6h7i8j9k0",
+      "userId": "clh9i0j1k2l3m4n5o6p7q8r9",
+      "title": "Grant Writing Essentials",
+      "description": "Crafting compelling proposals that secure funding for projects, research, and nonprofit initiatives.",
+      "images": ["https://picsum.photos/800/600?random=70"],
+      "category": "WRITING",
+      "createdAt": "2024-03-15T14:20:00.000Z",
+      "updatedAt": "2024-03-15T14:20:00.000Z"
+    },
+    {
+      "id": "blog81c2d3e4f5g6h7i8j9k0l1",
+      "userId": "clh0j1k2l3m4n5o6p7q8r9s0",
+      "title": "Biodiversity Conservation",
+      "description": "Protecting Earth's species and ecosystems in the face of habitat loss and climate change.",
+      "images": ["https://picsum.photos/800/600?random=71"],
+      "category": "SCIENCE",
+      "createdAt": "2024-04-13T10:45:00.000Z",
+      "updatedAt": "2024-04-27T13:20:00.000Z"
+    },
+    {
+      "id": "blog82d3e4f5g6h7i8j9k0l1m2",
+      "userId": "clh1a2b3c4d5e6f7g8h9i0j1",
+      "title": "Brand Identity Design",
+      "description": "Creating cohesive visual systems that communicate brand values and resonate with target audiences.",
+      "images": null,
+      "category": "DESIGN",
+      "createdAt": "2024-02-11T09:30:00.000Z",
+      "updatedAt": "2024-02-11T09:30:00.000Z"
+    },
+    {
+      "id": "blog83e4f5g6h7i8j9k0l1m2n3",
+      "userId": "clh2b3c4d5e6f7g8h9i0j1k2",
+      "title": "Posture and Ergonomics",
+      "description": "Preventing pain and injury through proper body alignment during work, exercise, and daily activities.",
+      "images": ["https://picsum.photos/800/600?random=72", "https://picsum.photos/800/600?random=73"],
+      "category": "HEALTH",
+      "createdAt": "2024-03-26T12:15:00.000Z",
+      "updatedAt": "2024-04-08T14:50:00.000Z"
+    },
+    {
+      "id": "blog84f5g6h7i8j9k0l1m2n3o4",
+      "userId": "clh3c4d5e6f7g8h9i0j1k2l3",
+      "title": "Version Control with Git",
+      "description": "Mastering Git workflows, branching strategies, and collaboration techniques for software development.",
+      "images": ["https://picsum.photos/800/600?random=74"],
+      "category": "IT",
+      "createdAt": "2024-01-09T14:00:00.000Z",
+      "updatedAt": "2024-01-09T14:00:00.000Z"
+    },
+    {
+      "id": "blog85g6h7i8j9k0l1m2n3o4p5",
+      "userId": "clh4d5e6f7g8h9i0j1k2l3m4",
+      "title": "Screenwriting Structure",
+      "description": "Understanding three-act structure, plot points, and formatting for film and television scripts.",
+      "images": null,
+      "category": "WRITING",
+      "createdAt": "2024-04-04T11:30:00.000Z",
+      "updatedAt": "2024-04-16T09:45:00.000Z"
+    },
+    {
+      "id": "blog86h7i8j9k0l1m2n3o4p5q6",
+      "userId": "clh5e6f7g8h9i0j1k2l3m4n5",
+      "title": "Astronomy and Cosmology",
+      "description": "Exploring the origins, evolution, and fate of the universe through observational and theoretical science.",
+      "images": ["https://picsum.photos/800/600?random=75"],
+      "category": "SCIENCE",
+      "createdAt": "2024-02-26T15:45:00.000Z",
+      "updatedAt": "2024-02-26T15:45:00.000Z"
+    },
+    {
+      "id": "blog87i8j9k0l1m2n3o4p5q6r7",
+      "userId": "clh6f7g8h9i0j1k2l3m4n5o6",
+      "title": "Whitespace in Design",
+      "description": "Using negative space effectively to create breathing room, improve readability, and enhance aesthetics.",
+      "images": ["https://picsum.photos/800/600?random=76", "https://picsum.photos/800/600?random=77"],
+      "category": "DESIGN",
+      "createdAt": "2024-01-23T10:15:00.000Z",
+      "updatedAt": "2024-02-07T12:40:00.000Z"
+    },
+    {
+      "id": "blog88j9k0l1m2n3o4p5q6r7s8",
+      "userId": "clh7g8h9i0j1k2l3m4n5o6p7",
+      "title": "Flexibility and Mobility",
+      "description": "Stretching techniques and mobility work to improve range of motion and reduce injury risk.",
+      "images": null,
+      "category": "HEALTH",
+      "createdAt": "2024-04-15T13:30:00.000Z",
+      "updatedAt": "2024-04-15T13:30:00.000Z"
+    },
+    {
+      "id": "blog89k0l1m2n3o4p5q6r7s8t9",
+      "userId": "clh8h9i0j1k2l3m4n5o6p7q8",
+      "title": "Cloud Computing Platforms",
+      "description": "Comparing AWS, Azure, and Google Cloud services for deploying and scaling applications.",
+      "images": ["https://picsum.photos/800/600?random=78"],
+      "category": "IT",
+      "createdAt": "2024-03-06T09:00:00.000Z",
+      "updatedAt": "2024-03-19T11:25:00.000Z"
+    },
+    {
+      "id": "blog90l1m2n3o4p5q6r7s8t9u0",
+      "userId": "clh9i0j1k2l3m4n5o6p7q8r9",
+      "title": "Journaling for Writers",
+      "description": "Using daily writing practice to develop ideas, overcome blocks, and improve your craft.",
+      "images": ["https://picsum.photos/800/600?random=79"],
+      "category": "WRITING",
+      "createdAt": "2024-02-03T14:45:00.000Z",
+      "updatedAt": "2024-02-03T14:45:00.000Z"
+    },
+    {
+      "id": "blog91m2n3o4p5q6r7s8t9u0v1",
+      "userId": "clh0j1k2l3m4n5o6p7q8r9s0",
+      "title": "Synthetic Biology Advances",
+      "description": "Engineering biological systems and organisms to create new functions and applications.",
+      "images": null,
+      "category": "SCIENCE",
+      "createdAt": "2024-01-27T11:20:00.000Z",
+      "updatedAt": "2024-02-11T14:05:00.000Z"
+    },
+    {
+      "id": "blog92n3o4p5q6r7s8t9u0v1w2",
+      "userId": "clh1a2b3c4d5e6f7g8h9i0j1",
+      "title": "Emotional Design Principles",
+      "description": "Creating designs that evoke specific emotions and form lasting connections with users.",
+      "images": ["https://picsum.photos/800/600?random=80", "https://picsum.photos/800/600?random=81"],
+      "category": "DESIGN",
+      "createdAt": "2024-04-02T12:30:00.000Z",
+      "updatedAt": "2024-04-02T12:30:00.000Z"
+    },
+    {
+      "id": "blog93o4p5q6r7s8t9u0v1w2x3",
+      "userId": "clh2b3c4d5e6f7g8h9i0j1k2",
+      "title": "Preventive Healthcare",
+      "description": "Proactive measures including screenings, vaccinations, and lifestyle changes to prevent disease.",
+      "images": ["https://picsum.photos/800/600?random=82"],
+      "category": "HEALTH",
+      "createdAt": "2024-03-17T10:00:00.000Z",
+      "updatedAt": "2024-03-31T13:45:00.000Z"
+    },
+    {
+      "id": "blog94p5q6r7s8t9u0v1w2x3y4",
+      "userId": "clh3c4d5e6f7g8h9i0j1k2l3",
+      "title": "Cybersecurity Fundamentals",
+      "description": "Essential security concepts, threat models, and protective measures for individuals and organizations.",
+      "images": null,
+      "category": "IT",
+      "createdAt": "2024-02-15T15:15:00.000Z",
+      "updatedAt": "2024-02-15T15:15:00.000Z"
+    },
+    {
+      "id": "blog95q6r7s8t9u0v1w2x3y4z5",
+      "userId": "clh4d5e6f7g8h9i0j1k2l3m4",
+      "title": "Writing Book Reviews",
+      "description": "Analyzing and critiquing books thoughtfully while engaging readers and respecting authors.",
+      "images": ["https://picsum.photos/800/600?random=83"],
+      "category": "WRITING",
+      "createdAt": "2024-01-15T09:45:00.000Z",
+      "updatedAt": "2024-01-29T11:30:00.000Z"
+    },
+    {
+      "id": "blog96r7s8t9u0v1w2x3y4z5a6",
+      "userId": "clh5e6f7g8h9i0j1k2l3m4n5",
+      "title": "Neutrinos and Particle Detection",
+      "description": "Studying these elusive subatomic particles and what they reveal about the universe's workings.",
+      "images": ["https://picsum.photos/800/600?random=84"],
+      "category": "SCIENCE",
+      "createdAt": "2024-04-10T14:00:00.000Z",
+      "updatedAt": "2024-04-10T14:00:00.000Z"
+    },
+    {
+      "id": "blog97s8t9u0v1w2x3y4z5a6b7",
+      "userId": "clh6f7g8h9i0j1k2l3m4n5o6",
+      "title": "Design Portfolio Creation",
+      "description": "Showcasing your best work effectively to attract clients and land design opportunities.",
+      "images": null,
+      "category": "DESIGN",
+      "createdAt": "2024-03-03T11:30:00.000Z",
+      "updatedAt": "2024-03-16T14:15:00.000Z"
+    },
+    {
+      "id": "blog98t9u0v1w2x3y4z5a6b7c8",
+      "userId": "clh7g8h9i0j1k2l3m4n5o6p7",
+      "title": "Holistic Health Approaches",
+      "description": "Integrating physical, mental, and emotional well-being for comprehensive health management.",
+      "images": ["https://picsum.photos/800/600?random=85", "https://picsum.photos/800/600?random=86"],
+      "category": "HEALTH",
+      "createdAt": "2024-02-07T12:45:00.000Z",
+      "updatedAt": "2024-02-07T12:45:00.000Z"
+    },
+    {
+      "id": "blog99u0v1w2x3y4z5a6b7c8d9",
+      "userId": "clh8h9i0j1k2l3m4n5o6p7q8",
+      "title": "Software Architecture Patterns",
+      "description": "Common architectural styles including MVC, microservices, and layered architectures.",
+      "images": ["https://picsum.photos/800/600?random=87"],
+      "category": "IT",
+      "createdAt": "2024-01-07T10:30:00.000Z",
+      "updatedAt": "2024-01-21T13:55:00.000Z"
+    },
+    {
+      "id": "blog100v1w2x3y4z5a6b7c8d9e0",
+      "userId": "clh9i0j1k2l3m4n5o6p7q8r9",
+      "title": "Content Marketing Strategy",
+      "description": "Planning and executing content that attracts audiences, builds authority, and drives business results.",
+      "images": null,
+      "category": "WRITING",
+      "createdAt": "2024-04-01T16:00:00.000Z",
+      "updatedAt": "2024-04-20T10:25:00.000Z"
+    }
+  ]
+}

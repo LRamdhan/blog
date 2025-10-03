@@ -6,6 +6,9 @@
   --color-text: #000000;
   --color-bg: #ffffff;
   --color-blur-bg: #e2e8f0;
+
+  --navbar-height: 65.3px;
+  --hscreen-full: calc(100vh - var(--navbar-height));
 }
 
 

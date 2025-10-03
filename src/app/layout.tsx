@@ -1,9 +1,6 @@
 import Navbar from "@/component/organism/Navbar";
 import "./../css/globals.css";
 import AuthProvider from "@/component/organism/AuthProvider";
-import { getServerSession } from "next-auth";
-import { authOption } from "./api/auth/[...nextauth]/route";
-import {getSession } from "@/utils/session";
 
 export default async function RootLayout({
   children,
@@ -16,7 +13,6 @@ export default async function RootLayout({
       <body>
         <AuthProvider>
           <Navbar />
-          <div className="h-5"></div>
           {children}
         </AuthProvider>
       </body>
